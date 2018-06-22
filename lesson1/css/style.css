@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.header {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #acacac;
+}
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.logo h1 span {
+    display: block;
+    font-weight: 400;
+}
+.menu li {
+    display: inline-block;
+}
+.menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #6d6d6d;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+.menu a:hover {
+    background: aliceblue;
+}
+/* Ссылка в меню внутри элемента с классом .active */
+.menu .active a {
+    background: #b7b7b7;
+}
+.main {
+    padding-bottom: 50px;
+}
+.photo {
+   padding: 80px 0;
+}
+.photo img {
+    border: 1px solid grey;
+}
+.info p {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.info span {
+    font-weight: 400;
+}
+.footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
